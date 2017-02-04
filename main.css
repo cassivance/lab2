@@ -1,0 +1,30 @@
+body  {
+    background-image: url("https://aos.iacpublishinglabs.com/question/aq/1400px-788px/how-clouds-are-made_d7445da91b9618e5.jpg?domain=cx.aos.ask.com");
+    background-color: #cccccc;
+}
+
+.info{
+  background-color: white;
+  text-align: center;
+  padding:40px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-family: 'Stint Ultra Condensed', cursive;
+  font-size: 1.5em;
+}
+
+.centerThis {
+    text-align: left;
+    margin-left: 40%;
+}
+
+.space{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2{
+  font-family: 'Piedra', cursive;
+
+}

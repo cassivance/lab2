@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>City Finder</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <link href="main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Piedra|Stint+Ultra+Condensed" rel="stylesheet">
+  <script src="mainJS.js"></script>
+</head>
+<body>
+  <div class="info">
+    <h2>What's the weather like?</h2>
+    <form>
+      Enter A Utah City: <input type="text" id="cityField" value="">
+      <div class="space centerThis">
+        Suggestion:
+        <div class="space">
+          <span id="txtHint">Empty</span>
+        </div>
+      </div>
+      <input id="weatherButton" type="submit" value="Submit">
+    </form>
+    <p>City</p>
+    <textarea id="displayCity">No City</textarea>
+    <div class="centerThis">
+    <p>Current Weather</p>
+      <div id="weather">No weather</div>
+    </div>
+  </div>
+  <div class="info">
+        <h2>Make a Stack Overflow Search</h2>
+        <form>
+          Search: <input type="text" id="searchStack" value="">
+          <input id="searchButton" type="submit" value="Submit">
+        </form>
+        <div class="centerThis">
+        <p>Search Results</p>
+          <ul id = 'searchResults'></ul>
+        </div>
+  </div>
+</body>
+</html>
